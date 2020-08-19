@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Planificateur du Voyage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-3 list-group">
+<ul>
+    <li class="list-group-item">Pays : <%= data.pays %> </li>
+    <li class="list-group-item">Ville : <%= data.ville %> </li>
+    <li class="list-group-item">Date de Depart : <%= data.dateDepart %> </li>
+    <li class="list-group-item">Date de Retour : <%= data.dateRetour %> </li>
+    <li class="list-group-item">Mode de Transport : <%= data.modeTransport %> </li>
+    <li class="list-group-item">Compagnie de Transport : <%= data.compagnieTransport %> </li>
+    <li class="list-group-item">Prix de Transport : <%= data.prixTransport %> </li>
+    <li class="list-group-item">Accomodation : <%= data.accomodation %> </li>
+    <li class="list-group-item">Adresse : <%= data.adresseAccomodation %> </li>
+    <li class="list-group-item">Prix d'Accomodation : <%= data.prixAccomodation %> </li>
+    <li class="list-group-item">Loisirs : <%= data.loisirs %> </li>
+</ul>
+    </div>
+</body>
+
+</html>
